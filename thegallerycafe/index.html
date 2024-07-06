@@ -1,0 +1,347 @@
+<?php
+    include('conn.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="Images/home.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="WorkWise.css">
+    <script src="https://kit.fontawesome.com/530a970965.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="icon">
+                <p>
+                    <i class="fa-solid fa-utensils"></i>
+                    The Gallery Cafe
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="navlinks">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="home.html">About us</a></li>
+                <li><a href="home.html">Reservation</a></li>
+                <li><a href="home.html">Contact us</a></li>
+                <li><a href="home.html">Events</a></li>
+                <li><a href="parking.html">Parking</a></li>
+                <li><a href="login.html">Login</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--welcome-hero start -->
+    <section id="home" class="welcome-hero">
+        
+        <div class="container">
+            <div class="welcome-hero-txt">
+                
+                <h2>Good Food,Great Vibes</h2>
+                <h3>Come and eat well with our delicious & healthy foods!</h3>
+             
+                <form action="searchCategories.php" class="search-bar" method="post">
+                    <input type="text" placeholder="Search anything">
+                    <button class="searchIcon" type="submit" href> <img src="Images/Search.png"></button>
+                </form>
+
+
+            </div>
+            <button class="booking" type="button">BOOK A TABLE</button>
+        </div>
+
+    </section><!--/.welcome-hero-->
+
+    <!--welcome-hero end -->
+
+    </section>
+
+    <section class="aboutUs">
+        <div class="text">
+            <h2>About us</h2>
+            <p>Founded in 1984, Galadari Hotel has transformed itself into the finest luxury hotel in Colombo. Keeping
+                customer satisfaction a priority, we have been offering exceptional services to our prestigious guests
+                by redefining standards of quality in hospitality.</p>
+            <p>For decades, Galadari Hotel has been the preferred choice for elite personalities across the globe. From
+                heads of state to royalty, celebrities, and esteemed guests, we have had the pleasure of welcoming and
+                serving the world’s most discerning individuals.</p>
+            <p>Whether it’s a business meeting or a special occasion, our personalized services and attention to detail
+                ensure that your stay with us is nothing short of extraordinary. Join us, and experience the epitome of
+                elegance and luxury that has made Galadari Hotel a beacon of hospitality in the city.</p>
+               
+            </div>
+
+        <div class="images">
+            <img src="Images/Sunny.jpeg">
+        </div>
+        
+
+    </section>
+
+
+
+    <div class="progressBar">
+
+        <div class="MainFont">
+            <h2>Menu</h2>
+            <br>
+            <P>Taste something unique with our special menu!</P>
+            </h2>
+        </div>
+        <section class="cContainer">
+
+            <div class="categories">
+            
+                <a href="menu.html" class="box">
+                    <h4>Main Dishes</h4>
+                </a>
+
+                <a href="menu.html" class="box">
+                    <h4>Beverages</h4>
+                </a>
+
+                <a href="menu.html" class="box">   
+                    <h4>Desserts</h4>
+                </a>
+
+            </div>
+
+        </section>
+    </div>
+
+    <div class="contactUs">
+
+        <div class="images">
+            <img src="Images/best.jpeg">
+        </div>
+
+        <div class="locate">
+            <h2>Contact Us</h2>
+            <div class="locateDetails">
+                <p>
+
+                <p><i class="fa-solid fa-location-dot"></i> Location: Colombo Road, One Gelle Face Center Rd,<br>
+                    Colombo 00200 Srilanka.</p><br>
+
+                <p> <i class="fa-solid fa-envelope"></i>Email: <u>gallerycafe@gmail.com</u></p><br>
+
+                <p><i class="fa-solid fa-phone"></i>Phone number: +94 76 123 4560</p>
+                </p>
+            </div>
+
+        </div>
+        <div class="text">
+            <form action="contactus.php" method="post">
+                <p>
+                    <label>Name</label><br>
+                    <input type="text" id="cName" name="name" placeholder="Enter your name" required>
+                </p>
+                <p>
+                    <label>Email</label><br>
+                    <input type="text" id="cName" name="email" placeholder="Enter your email" required>
+                </p>
+                <p>
+                    <label>Phone number</label><br>
+                    <input type="text" id="cName" name="phonenum" placeholder="Enter your phone number" required>
+                </p>
+                <p>
+                    <label>Subject</label><br>
+                    <input type="text" id="cName" name="subject" placeholder="Subject" required>
+                </p>
+                <p>
+                    <label>Enter your message..</label><br>
+                    <input type="text" id="cName" name="message" placeholder="message" required>
+                </p>
+    
+                <button type="submit" value="Register">Send Now ></button>
+            </form>
+            
+        </div>
+    </div>
+
+    <section class="gallery">
+        <div>
+            <h2>Our Gallery</h2>
+        </div>
+
+        <div class="img-gallery">
+            <img src="Images/gallery7.jpg">
+            <img src="Images/gallery4.jpeg">
+            <img src="Images/gallery6.jpeg">
+            <img src="Images/gallery11.jpeg">
+            <img src="Images/gallery12.jpeg">
+            <img src="Images/gallery9.jpeg">
+            <img src="Images/gallery10.jpeg">
+            <img src="Images/gallery8.jpeg">
+            <img src="Images/gallery2.jpeg">
+            <img src="Images/gallery1.jpeg">
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="topcompanybar">
+            <h2>Events</h2>
+            <P class="eventSub">Plan your party with us</P>
+            </h2>
+        </div>
+
+        <section class="index-category">
+            <a href="#" class="index-category-box">
+                <div class="dark-overlay"></div>
+                <h3>Wedding</h3>
+                <p>Celebrate your special day with us.</p>
+            </a>
+
+            <a href="#" class="index-category-box">
+                <div class="dark-overlay"></div>
+                <h3>Birthday Parties</h3>
+                <p>Make your birthday unforgettable.</p>
+            </a>
+
+            <a href="#" class="index-category-box">
+                <div class="dark-overlay"></div>
+                <h3>Family Get-togethers</h3>
+                <p>Enjoy quality time with your loved ones.</p>
+
+            </a>
+
+            <a href="#" class="index-category-box">
+                <div class="dark-overlay"></div>
+                <h3>Dance Night</h3>
+                <p>Dance the night away with great music.</p>
+            </a>
+        </section>
+
+        <section class="workForm">
+            <div class="container">
+                <div class="title">
+                    Reservation
+                </div>
+                <form action="reservation.php" method="post">
+                    <div class="user-Details">
+                        <div class="input-box">
+                            <span class="details">Name</span>
+                            <input type="text" placeholder="name" name="name" required>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="text" placeholder="email" name="email" required>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Phone</span>
+                            <input type="text" placeholder="phonenumber" name="phone" required>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Date</span>
+                            <input type="date" placeholder="date" name="date" required>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Time</span>
+                            <input type="datetime" placeholder="time" name="time" required>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Number of Guests</span>
+                            <input type="number" placeholder="" name="guests" required>
+                        </div>
+
+                    </div>
+                    <div class="register">
+                        <!--<button type="register" value="Login" id="send" onclick="message()">Register</button>-->
+                        <button type="submit" name="" onclick="message()" value="Register">Book a table</button>
+
+                    </div>
+                </form>
+            </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <div class="logo">
+                        <div class="icon">
+                            <p>
+                                <i class="fa-solid fa-utensils"></i>
+                                The Gallery Cafe
+                            </p>
+                        </div>
+            
+                    </div>
+                    
+                </div>
+        
+                <div class="col">
+                    <h3>Office</h3>
+                    <p>ITPL Road</p>
+                    <p>Whitefield, Bangalore</p>
+                    <p>Karnataka, PIN 560066, India</p>
+                    <p class="email-id">gallerycafe@gmail.com</p>
+                    <h4>+94 76 0695 989</h4>
+                </div>
+        
+                <div class="col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+        
+                <div class="col">
+                    <h3>Newsletter</h3>
+                    <form action="footEmail.php" method="post" class="email">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email"   placeholder="Enter your email id" name="email">
+                        <button type="submit"><i class=" fas fa-solid fa-arrow-right"></i></button> 
+                    </form>
+                    
+                    <div class="socialMedia">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>   
+
+</body>
+
+</html>

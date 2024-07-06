@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+	box-sizing:border-box;
+    background: #000000;
+    color: #EEF4ED;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(Images/relax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{    
+    position: absolute;
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: #00000063;
+}
+
+nav ul{
+    padding: 0%;
+    margin: 0;
+    float: right;
+    display: flex;
+}
+
+nav .logo{
+    float: left;
+    height: 100%;
+    line-height: 70px;
+}
+
+nav .logo .icon{
+    font-size: 25px;
+    line-height: 20px;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 12px;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    line-height: 70px;
+    color: #ffff;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    padding: 0 12px;  
+    font-size: 15px;
+    font-weight: 300;
+}
+
+nav ul li a:hover{
+    color: #262626;
+}
+
+nav ul li a:before{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    background: #ffff;
+    border-radius: 100px;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+nav ul li a:hover:before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+/* menu-one start*/
+
+.menu-one{
+height: 120vh;
+}
+
+.image-container{
+    padding-top: 200px;
+    padding-bottom: 80px;
+  
+}
+
+
+.image{
+    width: 430px;
+    height: 430px;
+    margin-left: 65px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 150px;
+}
+
+ .image:nth-child(1){
+    background-image: url('Images/chickenmeal.jpg');
+}
+
+.image:nth-child(2){
+    background-image: url('Images/glasses.jpg');
+}
+
+.image:nth-child(3){
+    background-image: url('Images/cakee.jpg');
+}
+
+.inner-text{
+    background-color: #00000063;
+    width: 800px;
+    height: 430px;
+    margin-left: 600px;
+
+
+}
+
+.inner-text h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inner-text-details{
+    margin-left: 20px;
+    display: flex;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  td h2{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ 

@@ -1,0 +1,267 @@
+body {
+    padding: 0;
+    margin: 0;
+	box-sizing:border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+nav{    
+    position: absolute;
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: #00000063;
+}
+
+nav ul{
+    padding: 0%;
+    margin: 0;
+    float: right;
+    display: flex;
+}
+
+nav .logo{
+    float: left;
+    height: 100%;
+    line-height: 70px;
+}
+
+nav .logo .icon{
+    font-size: 25px;
+    line-height: 20px;
+    color: white;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 12px;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    line-height: 70px;
+    color: #ffff;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    padding: 0 12px;  
+    font-size: 15px;
+    font-weight: 300;
+}
+
+nav ul li a:hover{
+    color: #262626;
+}
+
+nav ul li a:before{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    background: #ffff;
+    border-radius: 100px;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+nav ul li a:hover:before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+nav{    
+    position: absolute;
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: #00000063;
+}
+
+nav ul{
+    padding: 0%;
+    margin: 0;
+    float: right;
+    display: flex;
+}
+
+nav .logo{
+    float: left;
+    height: 100%;
+    line-height: 70px;
+}
+
+nav .logo .icon{
+    font-size: 25px;
+    line-height: 20px;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 12px;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    line-height: 70px;
+    color: #ffff;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    padding: 0 12px;  
+    font-size: 15px;
+    font-weight: 300;
+}
+
+nav ul li a:hover{
+    color: #262626;
+}
+
+nav ul li a:before{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    background: #ffff;
+    border-radius: 100px;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+nav ul li a:hover:before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+
+
+.workForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 120px; /*new add*/
+}
+
+.container{
+    background-color: #EEF4ED;
+    height: 90vh; /*new add*/
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.title .fa-solid{
+    padding: 10px;
+}
+.container form .user-Details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-Details .input-box{
+    margin: 15px 0;
+    width: calc(100% / 2 - 20px);
+}
+.user-Details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container .input-box input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: #2b4f7b1e;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px ;
+    font-size: 14px;
+    font-weight: 300;
+    backdrop-filter: blur(2px);
+
+}
+textarea:focus, input:focus {
+    color: #0B2545;
+}
+
+
+
+input::placeholder{
+    color: #0B2545;
+}
+#jobDes{
+    width: 100%;
+    height: 160px;
+}
+
+#qualifications{
+    height: 160px;
+}
+
+#key-responsibility{
+    height: 160px;
+}
+
+
+.register button
+    {
+       height: 50px;
+       width: 120px;
+       padding: 5px 5px;
+       border-radius: 0px;
+       cursor: pointer;
+       border: 0px;
+       background-color:#0B2545;
+       color: white;
+       letter-spacing: 1px;
+       text-transform:capitalize;
+       font-size: 13px;
+       margin-top: 25px;
+    }
+   
+.register button:hover{
+       letter-spacing: 1.2px;
+       color: white;
+    }
+   
+.register button:active{
+       letter-spacing: 2px;
+       background-color:white;
+       color: black;
+       transform: translateY(1.5px);
+    }
+
